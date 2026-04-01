@@ -19,6 +19,7 @@ Desenvolver uma ferramenta interativa que auxilie na identificação de golpes d
 Funcionamento
 
 A aplicação apresenta uma sequência de mensagens simuladas (inspiradas em contextos reais, como bancos, serviços de entrega e comunicações pessoais). Para cada mensagem, o usuário deve classificá-la como:
+
 	•	“golpe”
 	•	“seguro”
 
@@ -38,7 +39,7 @@ Funcionalidades
 
 Tecnologias utilizadas
 
-	•	Python 3
+	•	Python 3.10 ou superior
 
 ⸻
 
