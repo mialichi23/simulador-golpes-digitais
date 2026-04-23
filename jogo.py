@@ -59,3 +59,15 @@ def perguntar_novamente():
         if resposta in ["s", "n"]:
             return resposta
         print("Digite apenas 's' ou 'n'.")
+
+if __name__ == "__main__":
+    from casos import casos
+
+    while True:
+        mostrar_titulo()
+        jogar_rodada(casos)
+
+        resposta = perguntar_novamente()
+        if resposta == "n":
+            print("Obrigado por jogar!")
+            break
